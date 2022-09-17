@@ -6,14 +6,14 @@ The Article Libray API provide the access to library article, by informed filter
 For issues, contact: lespier.cirela@gmail.com.
 
 ## Method
-API's request:
+API request:
 | Method | Description |
 |---|---|
 | `GET` | Return articles by theme. |
 
 ## Responses
 
-| Código | Descrição |
+| Code | Description |
 |---|---|
 | `200` | Success.|
 | `500` | Internal Server Error.|
