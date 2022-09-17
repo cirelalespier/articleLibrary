@@ -1,11 +1,11 @@
-# articleLibrary
+# Article Library
 Search articles from news sources and blogs across the web.
 
-The [newsAPI](https://newsapi.org/) provide the access to library article.
+The Article Libray API provide the access to library article, by informed filter theme.
 
 For issues, contact: lespier.cirela@gmail.com.
 
-## Métodos
+## Method
 API's request:
 | Method | Description |
 |---|---|
@@ -24,7 +24,9 @@ The HTTP method GET return the articles by theme.
 
 | Parameter | Description |
 |---|---|
-| `q` (required, string, "author") | Filter articles by theme informed. |
+| theme (required, string, ex:"tesla") | Filter articles by theme informed. |
+
+Method GET: /api/article-library/get-article?theme=""
 
 ### Article List [GET]
 
